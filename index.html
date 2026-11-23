@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff5f6">
+  <title>A little reminder for you</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="scene">
+    <div class="sparkle sparkle-one">✦</div>
+    <div class="sparkle sparkle-two">✧</div>
+    <div class="book" aria-live="polite">
+      <div class="progress"><span id="progressBar"></span></div>
+
+      <section class="page active" data-page="0">
+        <div class="eyebrow">A little note for you</div>
+        <div class="tiny-heart">♡</div>
+        <h1>I know you<br>don't feel good<br>right now...</h1>
+        <p class="soft">...but I want you to remember something.</p>
+        <button class="next" type="button">Turn the page <span>→</span></button>
+      </section>
+
+      <section class="page" data-page="1">
+        <div class="eyebrow">First of all</div>
+        <div class="big-icon">♡</div>
+        <h2>You can count<br>on me. Anytime.</h2>
+        <p>You don't have to pretend that everything is okay around me. You can talk to me, vent, or just be quiet. Whatever you need.</p>
+        <div class="actions"><button class="back" type="button">← Back</button><button class="next" type="button">Next →</button></div>
+      </section>
+
+      <section class="page" data-page="2">
+        <div class="eyebrow">And please remember</div>
+        <div class="big-icon">☁</div>
+        <h2>You don't have<br>to face it alone.</h2>
+        <p>If you need help, a distraction, someone to listen, or absolutely anything else, I'll be here. I genuinely like you, and I want to see you happy.</p>
+        <div class="actions"><button class="back" type="button">← Back</button><button class="next" type="button">Next →</button></div>
+      </section>
+
+      <section class="page" data-page="3">
+        <div class="eyebrow">I know it's not much...</div>
+        <div class="big-icon">♡</div>
+        <h2>I can't fix<br>everything...</h2>
+        <p>And I know a little website can't magically make a difficult day disappear. But I wanted to try to make you smile, even just a little.</p>
+        <div class="actions"><button class="back" type="button">← Back</button><button class="next" type="button">One last thing →</button></div>
+      </section>
+
+      <section class="page final-page" data-page="4">
+        <div class="eyebrow">A little something for you</div>
+        <h2>Just because<br>you deserve it. ♡</h2>
+        <div class="gifts">
+          <figure>
+            <img src="assets/roses.jpg" alt="A bouquet of red roses">
+            <figcaption>A little reminder that you're special 🌹</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/kitten.jpg" alt="A fluffy little kitten">
+            <figcaption>And a tiny dose of cuteness 🐾</figcaption>
+          </figure>
+        </div>
+        <p class="closing">Take your time. Be kind to yourself.<br>And remember: I'm here. ❤️</p>
+        <div class="actions"><button class="back" type="button">← Back</button><button class="restart" type="button">Read again ↻</button></div>
+      </section>
+    </div>
+    <footer>made with a little care <span>♥</span></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
